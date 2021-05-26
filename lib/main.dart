@@ -32,8 +32,9 @@ class MyHomePage extends StatefulWidget {
 class Data {
   String title;
   final String text;
+  final  String day;
 
-  Data({this.title, this.text});
+  Data({this.title, this.text,this.day});
 }
 
 class _MyHomePageState extends State<MyHomePage> {
@@ -109,14 +110,22 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               child: Card(
                 margin: EdgeInsets.all(4),
-                child: Center(
-                  child: Text(
-                    dataList[index].title,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      height: 3,
+                child: Row(
+                  children: [
+                    Container(
+                      padding: EdgeInsets.all(8),
+                      child: Text(dataList[index].day),
                     ),
-                  ),
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      child: Text(
+                        dataList[index].title,
+                        style: TextStyle(
+                          height: 2,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
             );
@@ -130,9 +139,9 @@ class _MyHomePageState extends State<MyHomePage> {
             context,
             MaterialPageRoute(
                 builder: (context) => DairyPage(
-                      onSaved: (newData) {
+                      onSaved: (value) {
                         setState(() {
-                          dataList.add(newData);
+                          dataList.add(value);
                         });
                       },
                     )),
