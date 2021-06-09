@@ -15,5 +15,4 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # dairy_app
-![Q598NDiuJUpdAYMEcIBK1623247971-1623248110](https://user-images.githubusercontent.com/82754459/121372736-78cf2800-c979-11eb-82a5-d7133c809a41.gif)
-
+![jZy6FwlsjjdwIKxqSFVt1623249972-1623249975](https://user-images.githubusercontent.com/82754459/121377299-2f80d780-c97d-11eb-8d4d-ebc5e3a1fc29.gif)
