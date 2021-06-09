@@ -1,6 +1,6 @@
 # flutter_dairy
 
-A new Flutter application.aaa
+A new Flutter application.
 
 ## Getting Started
 
