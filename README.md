@@ -1,7 +1,3 @@
-# flutter_diary
-
-A new Flutter application.
-
 # diary_app
 簡単な日記アプリを作ってみました。日付が変更でき、内容の編集・削除ができます。
 
